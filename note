@@ -11,3 +11,6 @@ http 進來會有header和body，body是放資料的(html檔的內容)
 在瀏覽器搜尋輸入url他發出去的會是GET請求
 
 GET方法只會送header
+
+同樣是query如果今天語法是 select那results會拿到你撈的物件，
+但是update等等 results就會拿到描述結果的物件。
