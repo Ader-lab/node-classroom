@@ -1,0 +1,13 @@
+req取参数的3种方法
+expressjs里的请求参数，4.x里只有3种
+
+req.params
+req.body
+req.query
+
+req.body一定是post请求
+
+http 進來會有header和body，body是放資料的(html檔的內容)
+在瀏覽器搜尋輸入url他發出去的會是GET請求
+
+GET方法只會送header
