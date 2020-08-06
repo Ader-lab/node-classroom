@@ -11,3 +11,5 @@ http 進來會有header和body，body是放資料的(html檔的內容)
 在瀏覽器搜尋輸入url他發出去的會是GET請求
 
 GET方法只會送header
+
+sql = `SELECT * FROM \`reviews\` WHERE productID=${prid} ORDER BY createdTime DESC`;
