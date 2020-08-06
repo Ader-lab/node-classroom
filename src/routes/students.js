@@ -79,7 +79,7 @@ router.post('/add', upload.none(), (req, res)=>{
     const email_pattern = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
     if(!email_pattern.test(req.body.cEmail)){
         output.error = 'Email 格式錯誤';
-        return res.json(output); 
+        return res.json(output);
     }
 
     const sql = "INSERT INTO `students`(`cName`, `cEmail`, `cPhone`, `cBirthday`, `cAddr`) VALUES (?,?,?,?,?)";
